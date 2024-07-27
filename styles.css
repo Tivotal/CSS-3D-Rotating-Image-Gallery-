@@ -31,7 +31,7 @@ body {
   }
 }
 
-.wrapper span {
+.wrapper .slide {
   position: absolute;
   top: 0;
   left: 0;
@@ -44,7 +44,7 @@ body {
   transform: rotateY(calc(var(--i) * 45deg)) translateZ(280px);
 }
 
-.wrapper span img {
+.wrapper .slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
